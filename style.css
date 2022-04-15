@@ -1,0 +1,123 @@
+:root{
+    --bg_color: black;
+    --text_color:#00FF00;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+html {
+  background: var(--bg_color);
+  overflow-x: hidden; 
+}
+
+body {
+  font: 1vw 'Inconsolata', monospace;
+  color: var(--text_color);
+  font-weight: 400;
+  width: 90vw;
+  margin: 5vw;
+  margin-top: 7vh;
+  background: var(--bg_color);
+}
+::selection{
+  background: #eee
+}
+::-webkit-selection{
+  background: #eee
+}
+::-moz-selection{
+  background: #eee
+}
+a{
+  color: var(--text_color);
+}
+a:hover,a:focus{
+    border:1px solid var(--text_color);
+}
+h2{
+  font-size: 1em;
+  font-weight: 400;
+}
+p{
+  margin-top:3vh;
+  margin-bottom:3vh;
+  letter-spacing: 0.10rem;
+}
+abbr{
+  cursor: help;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  margin:1em 0 0;
+  margin-left: 2vw;
+}
+span{
+  display: block;
+  line-height:1;
+}
+
+kbd{
+  border:1px solid var(--text_color);
+  text-transform: uppercase;
+  padding:0 .2em;
+}
+input[type="text"]{
+  max-width: 10em;
+  border: none;
+  font: inherit;
+  color: inherit;
+  font-weight: 400;
+  background: var(--bg_color);
+}
+input[type="text"]:focus{
+  background: var(--bg_color);
+  outline:none;
+}
+.command{
+  display: block;
+  max-width: 20em;
+  font-weight: 600;
+  margin: 2em 0;
+}
+
+
+section{
+  display: none;
+}
+.open{
+  display: block;
+}
+copy{
+  display: none;
+}
+
+
+
+main{
+    top: -50vh;
+}
+.title{
+    font: 3vw 'Inconsolata', monospace;
+    font-weight: bold;
+}
+fixed{
+  margin: 5vw;
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+
+
+.sub_title{
+    font: 1.5vw 'Inconsolata', monospace;
+    font-weight: 600;
+    margin-top: 3vh;
+}
+
+
+
+
+
